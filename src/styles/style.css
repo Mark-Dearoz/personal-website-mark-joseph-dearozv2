@@ -1,0 +1,86 @@
+.header {
+  position: fixed;
+  width: 100vw;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header img {
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.header .links {
+  margin-right: 1rem;
+}
+
+.header .links img {
+  margin: 1rem;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.page button {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 1200%);
+          transform: translate(-50%, 1200%);
+  font-size: 2.25rem;
+  color: #524C4C;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: #F8A559;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 300;
+  color: #F8A559;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+button {
+  padding: .5rem 1rem .5rem 1rem;
+  background-color: #F8A559;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.5), 0px 2px 3px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.5), 0px 2px 3px 0px rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
